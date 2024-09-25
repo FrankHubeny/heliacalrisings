@@ -1,6 +1,6 @@
 # Sothis: Stellar Dating of Ancient Events
 
-[![Sothis](https://jupyterbook.org/badge.svg)]
+## This book is still under construction.  Most of the pages contain template data.
 
 This book argues that the Egyptian Sothic Calendar based on the heliacal rising of Sirius (Sothis in Greek) and the
 36 decanal stars can be used to construct a reliable chronology of the 
