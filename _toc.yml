@@ -30,5 +30,6 @@ parts:
 - caption: Resources
   chapters:
   - file: resources/glossary
+  - file: resources/software
   - file: resources/genindex
   - file: resources/bibliography
