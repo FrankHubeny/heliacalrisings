@@ -4,24 +4,31 @@
 format: jb-book
 root: intro
 parts:
-- caption: Astronomical Exploration of Heliacal Risings
+- caption: Preface
   chapters:
-  - file: heliacalrisings
-  - file: astropyexample
-- caption: Heliacal Rising of Sirius at Memphis
+  - file: preface/preface
+- caption: Egypt
   chapters:
-  - file: memphis
-  - file: astropymemphis
-  - file: sothisnb
-- caption: Chronology
+  - file: egypt/heliacalrisings
+  - file: egypt/astropyexample
+  - file: egypt/memphis
+  - file: egypt/astropymemphis
+  - file: egypt/sothisnb
+- caption: Ancient Near East
   chapters:
-  - file: chronology
-  - file: chronologicaldata
-- caption: Response to Objections
+  - file: ancientneareast/chronology
+  - file: ancientneareast/chronologicaldata
+- caption: Israel
   chapters:
-  - file: objectors
-- caption: Backmatter
+  - file: israel/objectors
+- caption: World
   chapters:
-  - file: glossary
-  - file: genindex
-  - file: bibliography
+  - file: world/world
+- caption: Conclusion
+  chapters:
+  - file: conclusion/concludingchronology
+- caption: Resources
+  chapters:
+  - file: resources/glossary
+  - file: resources/genindex
+  - file: resources/bibliography

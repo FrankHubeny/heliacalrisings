@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="5.5in"
+   height="5.5in"
+   viewBox="0 0 139.7 139.7"
+   version="1.1"
+   id="svg4686"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="heliacalrising.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview4688"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.0544998"
+     inkscape:cx="392.60321"
+     inkscape:cy="334.28172"
+     inkscape:window-width="1350"
+     inkscape:window-height="1040"
+     inkscape:window-x="334"
+     inkscape:window-y="38"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs4683" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <ellipse
+       style="opacity:0.5;fill:#ffe05c;fill-opacity:1;stroke-width:0.264583"
+       id="path11767"
+       cx="73.265381"
+       cy="104.62899"
+       rx="53.192677"
+       ry="50.432682" />
+    <ellipse
+       style="opacity:0.5;fill:#ffb800;fill-opacity:1;stroke-width:0.256269"
+       id="path12925"
+       cx="90.452644"
+       cy="21.703617"
+       rx="12.419989"
+       ry="11.416353" />
+  </g>
+</svg>
