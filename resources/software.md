@@ -1,10 +1,14 @@
-# Software and Data Sources
+# Software and Data Attribution and Licenses
 
 ```{glossary}
 
 [AstroPy](https://www.astropy.org/)
   Version 6.1.2\
   [License](https://github.com/astropy/astropy/blob/main/LICENSE.rst)
+
+[Bible Mapper](https://biblemapper.com/)
+  Version 5.1
+  Used with Natural Earth data.
 
 [GitHub](https://github.com/)
   This tool housed the [replository](https://github.com/FrankHubeny/heliacalrisings) where the book resides 
@@ -14,7 +18,7 @@
   Used to obtain the latitude and longitude values of specific sites.
 
 [Inkscape](https://inkscape.org/)
-  Version 1.2.1 (9c6d41e410, 2022-07-14)) 
+  Version Inkscape 1.3.2 (091e20e, 2023-11-25, custom) 
   The favicon and book icon were created first as SVG files and then converted to PNG files using this tool.\
   [License](https://inkscape.org/about/license/): [GNU General Public License, version 2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
 
@@ -50,5 +54,9 @@
 [Python](https://www.python.org/) 
   Version 3.12.1\
   [License](https://docs.python.org/3/license.html): [PSF License Agreement](https://docs.python.org/3/license.html#psf-license)
+
+[QGIS](https://qgis.org/project/overview/)
+  Version
+  [License](https://qgis.org/license/) GNU General Public License
 
 ````

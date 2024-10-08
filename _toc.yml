@@ -7,6 +7,12 @@ parts:
 - caption: Preface
   chapters:
   - file: preface/preface
+- caption: Geometry
+  chapters:
+  - file: geometry/geometry
+    sections:
+    - file: geometry/circles
+    - file: geometry/spheres
 - caption: Egypt
   chapters:
   - file: egypt/heliacalrisings
@@ -29,7 +35,12 @@ parts:
   - file: conclusion/concludingchronology
 - caption: Resources
   chapters:
+  - file: resources/geonames
+  - file: resources/months
   - file: resources/glossary
   - file: resources/software
   - file: resources/genindex
   - file: resources/bibliography
+- caption: Data
+  chapters:
+  - file: data/retrievenames
