@@ -27,6 +27,10 @@
   The `convert` tool was used to create ICO files from PNG files.\
   [License](https://imagemagick.org/script/license.php)
 
+[JSesh](https://jsesh.qenherkhopeshef.org/)
+  Version 7.6.1
+  [License GNU Lesser General Public License](https://www.gnu.org/licenses/lgpl-3.0.html)
+
 [Jupyter Book](https://jupyterbook.org/en/stable/intro.html)
   Version 1.0.2\
   [License](https://github.com/jupyter-book/jupyter-book/blob/master/LICENSE): BSD 3-Clause
@@ -59,4 +63,7 @@
   Version
   [License](https://qgis.org/license/) GNU General Public License
 
+[R](https://cran.r-project.org/bin/windows/base/)
+  Version R-4.4.1
+  License: GNU General License
 ````
