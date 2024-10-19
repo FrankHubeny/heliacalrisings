@@ -30,6 +30,22 @@ parts:
 - caption: World
   chapters:
   - file: world/world
+- caption: Chronologies
+  chapters:
+  - file: chronology/chronologies
+  - file: chronology/general
+  - file: chronology/egyptian
+  - file: chronology/assyrian
+  - file: chronology/babylonian
+  - file: chronology/ussher
+  - file: chronology/byzantine
+  - file: chronology/world
+    sections:
+    - file: chronology/world/china
+    - file: chronology/world/india
+    - file: chronology/world/america
+    - file: chronology/world/europe
+    - file: chronology/world/africa
 - caption: Conclusion
   chapters:
   - file: conclusion/concludingchronology

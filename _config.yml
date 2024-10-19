@@ -10,14 +10,14 @@ author                      : Frank Hubeny  # The author of the book
 copyright                   : "2024"  # Copyright year to be placed in the footer
 logo                        : "icons/sunstar.png"  # A path to the book logo
 # Patterns to skip when building the book. Can be glob-style (e.g. "*skip.ipynb")
-exclude_patterns            : [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints", geography, LICENSE.txt]
+exclude_patterns            : [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints", geography, .github, geometry/r.ipynb]
 # Auto-exclude files not in the toc
 only_build_toc_files        : false
 
 #######################################################################################
 # Execution settings
 execute:
-  execute_notebooks         : "force"  # Whether to execute notebooks at build time. Must be one of ("auto", "force", "cache", "off")
+  execute_notebooks         : "auto"  # Whether to execute notebooks at build time. Must be one of ("auto", "force", "cache", "off")
   cache                     : ""    # A path to the jupyter cache that will be used to store execution artifacts. Defaults to `_build/.jupyter_cache/`
   exclude_patterns          : []    # A list of patterns to *skip* in execution (e.g. a notebook that takes a really long time)
   timeout                   : 30    # The maximum time (in seconds) each notebook cell is allowed to run.
@@ -56,7 +56,7 @@ html:
   use_multitoc_numbering    : true   # Continuous numbering across parts/chapters
   #extra_footer              : "This work is licensed under <a href=https://creativecommons.org/licenses/by/4.0/>CC BY 4.0</a>"  # Will be displayed underneath the footer.
   extra_footer              : '<p xmlns:cc="http://creativecommons.org/ns#" >This work is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>'
-  google_analytics_id       : ""  # A GA id that can be used to track book views.
+  #google_analytics_id       : ""  # A GA id that can be used to track book views.
   home_page_in_navbar       : true  # Whether to include your home page in the left Navigation Bar
   baseurl                   : "https://frankhubeny.github.io/heliacalrisings/"  # The base URL where your book will be hosted. Used for creating image previews and social links. e.g.: https://mypage.com/mybook/
   html_show_sourcelink      : true
@@ -85,7 +85,6 @@ latex:
     targetname: sothis.tex
     
 bibtex_bibfiles:
-  # - references.bib
   - AltRea.bib
 
 #######################################################################################
@@ -107,10 +106,7 @@ repository:
 sphinx:
   extra_extensions          :   # A list of extra extensions to load by Sphinx (added to those already used by JB).
   - sphinx_proof
-  - hoverxref.extension
   local_extensions          :   # A list of local extensions to load by sphinx specified by "name: path" items
   recursive_update          : false # A boolean indicating whether to overwrite the Sphinx config (true) or recursively update (false)
   config                    :   # key-value pairs to directly over-ride the Sphinx configuration
     language: en
-    hoverxref_roles:
-      - term

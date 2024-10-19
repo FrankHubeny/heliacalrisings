@@ -20,6 +20,8 @@ The Egyptian texts are presented in
 
 The main argument is presented in
 
+A test for a bibligraphic citation{cite:p}`cain_doctrine_1989` and another citation with annotations{cite:ts}`cain_doctrine_1989`.
+
 ## How to obtain and use this book
 
 One may download the pdf file or the epub file containing this document and 
